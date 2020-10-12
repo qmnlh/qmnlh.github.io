@@ -7,6 +7,7 @@
     <meta name="keywords" content="<?=$XIAOYU['site_info']['keywords']?>">
     <meta name="description" content="<?=$XIAOYU['site_info']['description']?>">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="format-detection" content="telephone=no" />
     <link rel="canonical" href="<?=$XIAOYU['this_url']?>">
     <script type="text/javascript" src="/static/js/jquery.js"></script>
     <link rel="stylesheet" href="/static/css/font-awesome.css">
@@ -221,6 +222,15 @@
             });
         });</script>
 </div>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?31ed26e007f5a8beda892caa721c9925";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 
 </body>
 </html>
