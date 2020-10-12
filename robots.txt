@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /*?*
+Disallow: .php$
+
+Sitemap:http://www.qm6j.com/sitemap.xml
